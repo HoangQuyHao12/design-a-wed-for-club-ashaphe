@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+    <title>Thành viên</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="team">
+        <div class="container">
+            <h1><a href="">ASAPHE</a>
+               <div class="btnout" >
+                <button class="btn btn-outline-light" style="color: white;background-color:lone;"  type="button" onclick="location.href='http://localhost/ktpm-end2/connectdb/ashaphe.php';" class="btn">Trang Chủ</button>
+               </div>
+          </h1>
+            <div class="row">
+                <div class="col-md-3 profile text-center">
+                    <div class="img-box">
+                        <img src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.6435-1/131540223_2809821502591984_5927068929839085206_n.jpg?stp=c0.53.320.320a_dst-jpg_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_ohc=94YFmb0dSHQAX-lAD9c&_nc_ht=scontent.fhan2-3.fna&oh=00_AT8Px6gGmZcsehyuURaXEnBX5X9KWkzX8hnWfnAvAuutSg&oe=62BB6CB1" class="img-responsive">
+                    </div>
+                    <h2>Vũ Khắc Châu</h2>
+                    <h3>Chủ tịch CLB</h3>
+              
+                </div>
+                <div class="col-md-3 profile text-center">
+                    <div class="img-box">
+                      <img src="anh/huyen.jpg" class="img-responsive">
+                    </div>
+                    <h2>Dương Thị Thu Huyền</h2>
+                    <h3>Trưởng ban Chuyên môn</h3>
+                    
+                </div>
+                <div class="col-md-3 profile text-center">
+                    <div class="img-box">
+                      <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-1/156657757_1792787010894128_5458045433724374797_n.jpg?stp=dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=VsKzO6u0SkIAX-Lm-6f&_nc_ht=scontent.fhan2-4.fna&oh=00_AT-UDPaX13gFkNzHQ120RyZCENoODy0KK2q1O-gNb3LySg&oe=62BBF212" class="img-responsive">
+                    </div>
+                    <h2>Đàm Khắc Khánh Duy</h2>
+                    <h3>Trưởng ban sự kiện</h3>
+                   
+                </div>
+                <div class="col-md-3 profile text-center">
+                    <div class="img-box">
+                      <img src="anh/quyet.jpg" class="img-responsive">
+                    </div>
+                    <h2>Đặng Công Quyết</h2>
+                    <h3>Trưởng ban truyền thông và đối ngoại</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="btnout" >
+          <button  type="button" onclick="location.href='http://localhost/ktpm-end2/connectdb/ashaphe.php';" class="btn">Về Trang Chủ</button>
+        </div>
+    </section>
+   
+    
+    <section class="member">
+        <body>
+            <table class = "table-sortable">
+              <thead>
+                <tr>
+                  <th>Điểm uy tín</th>
+                  <td>Tên</td>
+                  <th>tuổi</th>
+                  <td>Chức vụ</td>
+                  <td>Thích</td>
+                  <td>ghét</td>
+                  <td>thông tin</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id = "rank1">50</td>
+                  <td>Phan Thành Đạt</td>
+                  <td>20</td>
+                  <td>Thư Kí</td>
+                  <td><button id = "button11" class="badge"> <i class='bx bx-heart-circle' ></i></button></td>
+                  <td><button id = "button12" class="badge"> <i class='bx bxs-sad' ></i></button></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf"> độc thân
+                      <div class="img-box">
+                        <img style="height: 100px; width:100px" src="anh/phanthanhdat.jpg" class="img-responsive">
+                      </div>
+                    </span>
+                </td>
+                </tr>
+                <tr>
+                  <td id = "rank2">22</td>
+                  <td>Dương Thành Công</td>
+                  <td>22</td>
+                  <td>phó ban</td>
+                  <td><span><button id = "button21" class="badge"> <i class='bx bx-heart-circle' ></i></button></span></td>
+                  <td><span><button id = "button22" class="badge"> <i class='bx bxs-sad' ></i></button></span></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf"> 6 người yêu
+                      <div class="img-box">
+                        <img style="height: 100px; width:100px" src="anh/duongthanhcong.jpg" class="img-responsive">
+                      </div>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td id = "rank3">21</td>
+                  <td>Hoàng Quý Hào</td>
+                  <td>19</td>
+                  <td>Thành Viên</td>
+                  <td><span><button id = "button31" class="badge"> <i class='bx bx-heart-circle' ></i></button></span></td>
+                  <td><span><button id = "button32" class="badge"> <i class='bx bxs-sad' ></i></button></span></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf"> độc thân
+                      <div class="img-box">
+                        <img style="height: 100px; width:100px" src="anh/hoangquyhao.jpg" class="img-responsive">
+                      </div>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td id = "rank4">40</td>
+                  <td>Đỗ Văn Hảo</td>
+                  <td>18</td>
+                  <td>Cộng Tác Viên</td>
+                  <td><span><button id = "button41" class="badge"> <i class='bx bx-heart-circle' ></i></button></span></td>
+                  <td><span><button id = "button42" class="badge"> <i class='bx bxs-sad' ></i></button></span></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf">đã có chậu
+                      <div class="img-box">
+                        <img style="height: 100px; width:100px" src="anh/dovanhao.jpg" class="img-responsive">
+                      </div>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td id = "rank5">80</td>
+                  <td>Phùng Bá Công</td>
+                  <td>19</td>
+                  <td>Thành Viên</td>
+                  <td><span><button id = "button51" class="badge"> <i class='bx bx-heart-circle' ></i></button></span></td>
+                  <td><span><button id = "button52" class="badge"> <i class='bx bxs-sad' ></i></button></span></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf">độc thân
+                      <div class="img-box">
+                        <img style="height: 100px; width:100px" src="anh/bacong.jpg" class="img-responsive">
+                      </div>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td id ="rank6">10</td>
+                  <td>vũ khắc châu</td>
+                  <td>21</td>
+                  <td>chủ tịch</td>
+                  <td><span><button id = "button61" class="badge"> <i class='bx bx-heart-circle' ></i></button></span></td>
+                  <td><span><button id = "button62" class="badge"> <i class='bx bxs-sad' ></i></button></span></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf">không hứng thú với yêu đương
+                      <div class="img-box">
+                        <img style="height: 100px; width:100px" src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.6435-1/131540223_2809821502591984_5927068929839085206_n.jpg?stp=c0.53.320.320a_dst-jpg_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_ohc=94YFmb0dSHQAX-lAD9c&_nc_ht=scontent.fhan2-3.fna&oh=00_AT8Px6gGmZcsehyuURaXEnBX5X9KWkzX8hnWfnAvAuutSg&oe=62BB6CB1" class="img-responsive">
+                      </div>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td id = "rank7">80</td>
+                  <td>Dương Thị Thu Huyền</td>
+                  <td>21</td>
+                  <td>trưởng ban chuyên môn</td>
+                  <td><span><button id = "button71" class="badge"> <i class='bx bx-heart-circle' ></i></button></span></td>
+                  <td><span><button id = "button72" class="badge"> <i class='bx bxs-sad' ></i></button></span></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf">đã có phi công
+                      <div class="img-box">
+                        <img style="height: 100px; width:100px" src="anh/huyen.jpg" class="img-responsive">
+                      </div>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td id = "rank8">70</td>
+                  <td>Đàm Khắc Khánh Duy</td>
+                  <td>21</td>
+                  <td>trưởng ban sự kiện</td>
+                  <td><span><button id = "button81" class="badge"> <i class='bx bx-heart-circle' ></i></button></span></td>
+                  <td><span><button id = "button82" class="badge"> <i class='bx bxs-sad' ></i></button></span></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf">bắt cá 2 tay
+                      <div class="img-box">
+                        <img style="height: 100px; width:100px" src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-1/156657757_1792787010894128_5458045433724374797_n.jpg?stp=dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=VsKzO6u0SkIAX-Lm-6f&_nc_ht=scontent.fhan2-4.fna&oh=00_AT-UDPaX13gFkNzHQ120RyZCENoODy0KK2q1O-gNb3LySg&oe=62BBF212" class="img-responsive">
+                      </div>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td id = "rank9">60</td>
+                  <td>Đặng Công Quyết</td>
+                  <td>21</td>
+                  <td>trưởng ban truyền thông</td>
+                  <td><span><button id = "button91" class="badge"> <i class='bx bx-heart-circle' ></i></button></span></td>
+                  <td><span><button id = "button92" class="badge"> <i class='bx bxs-sad' ></i></button></span></td>
+                  <td >
+                    <i class='bx bxs-right-arrow'></i>
+                    <span class="inf">dùng lưới bắt cá
+                      <div class="img-box">
+                        <img style="height: 50px; width:50px" src="anh/quyet.jpg" class="img-responsive">
+                      </div>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            <script src="./test.js"></script>
+          </body>
+    </section>
+</body>

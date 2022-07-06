@@ -1,0 +1,18 @@
+.btnout{
+              text-align: right;
+}
+body{
+              background-color: lightblue;
+              background-image: url("thanhguombg.jpg");
+              background-repeat: no-repeat;
+              /* background-position: center; */
+              background-size: cover;             
+}
+card-body {
+ 
+
+              color: white!important;
+              filter: alpha(opacity=80); /* For IE8 and earlier */
+              background-image: url("thanhguombg.jpg");
+}
+

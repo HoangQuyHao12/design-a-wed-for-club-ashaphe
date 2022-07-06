@@ -1,0 +1,32 @@
+
+body{
+  background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(images/4.jpg);
+  background-size:cover;
+  background-position:center;
+  
+}
+h1{
+              font-size: 70px;
+              color:white !important;
+              margin-top:200px !important;
+              text-align: center;
+              text-transform: uppercase;         
+}
+h3{
+              color:white !important;
+              margin-top:70px !important;
+              text-align: center;
+              text-transform: uppercase;         
+}
+h2{
+              color: white !important;
+              margin-top:60px !important;
+              text-align: center;
+              text-transform: uppercase;         
+}
+h4{
+              color: white !important;
+              margin-top:60px !important;
+              text-align: center;
+              text-transform: uppercase;         
+}

@@ -1,0 +1,55 @@
+body{
+              background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(anhnhat2.jpg);
+              background-size:cover;
+              background-position:center;
+
+}
+a{
+              color:#fff !important;
+             
+
+             
+}
+h1{
+              color:white !important;
+              margin-top:200px !important;
+              text-align: center;
+              text-transform: uppercase; 
+
+}
+container{
+              width:100%;
+              height:100%;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              flex-direction:column;
+              background:rgba(0,0,0,0.5);
+              padding:20px;
+              margin-top:100px;
+              margin-bottom:100px;
+              border-radius:10px;
+              box-shadow:0px 0px 10px black;
+}
+.login-box{
+              max-width: 700px;
+              float:none;
+              margin:600px auto;
+              left:-200px !important;
+              padding: 40px;
+              box-shadow: center 0 0 0 0 #fff;
+
+
+}
+.login-left{
+              background:rgba(211,211,211,0.5);
+              padding:40px;
+}
+.login-right{
+              background:#fff;
+              padding: 30px;
+}
+.form-control{
+              background-color: transparent !important;
+              
+}
